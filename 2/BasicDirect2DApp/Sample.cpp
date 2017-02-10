@@ -1,9 +1,16 @@
 #include "Precompiled.h"
 
+#include <d2d1.h>
+#include <wrl.h>
+
+#pragma comment(lib, "d2d1")
+
 using namespace D2D1;
 using namespace Microsoft::WRL;
 
-struct SampleWindow : CWindowImpl<SampleWindow, CWindow, CWinTraits<WS_OVERLAPPEDWINDOW | WS_VISIBLE>>
+
+struct SampleWindow :
+	CWindowImpl<SampleWindow, CWindow, CWinTraits<WS_OVERLAPPEDWINDOW | WS_VISIBLE>>
 {
     ComPtr<ID2D1Factory> m_factory;
     ComPtr<ID2D1HwndRenderTarget> m_dc;
@@ -118,7 +125,7 @@ struct SampleWindow : CWindowImpl<SampleWindow, CWindow, CWinTraits<WS_OVERLAPPE
 
     void Draw()
     {
-        m_dc->Clear(ColorF(0.26f, 0.56f, 0.87f));
+        m_dc->Clear(ColorF(0.56f, 0.56f, 0.27f));
     }
 };
 
