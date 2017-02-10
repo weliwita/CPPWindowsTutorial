@@ -15,7 +15,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Precompiled.cpp" />
-    <ClCompile Include="Sample.cpp" />
+    <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="SkeletonWindow.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{12D10325-D869-47BB-8BB9-68A8263C812F}</ProjectGuid>
