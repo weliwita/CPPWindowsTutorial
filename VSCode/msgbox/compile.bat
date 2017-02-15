@@ -1,0 +1,1 @@
+cl program.cpp /Fe"hello" /link /subsystem:windows user32.lib
