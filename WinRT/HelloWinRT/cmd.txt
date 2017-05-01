@@ -1,2 +1,2 @@
-#This should be run visual studio x64 Native Command prompt
+#This should be run visual studio x64 Native Command prompt run as administrator
 cl Main.cpp pch.cpp /I D:\Projects\GitHub\cppwinrt\10.0.14393.0 /Ycpch.h /Yupch.h /bigobj /await /EHsc /std:c++latest  /DUNICODE
