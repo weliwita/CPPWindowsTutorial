@@ -41,7 +41,8 @@ namespace App1
 
         public void SetWindow(CoreWindow window)
         {
-            
+            Sample.Hen x = new Sample.Hen();
+            x.Cluck();
         }
 
         public void Uninitialize()
