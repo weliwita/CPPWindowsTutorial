@@ -7,3 +7,4 @@
 
 #define ASSERT ATLASSERT
 #define TRACE ATLTRACE
+

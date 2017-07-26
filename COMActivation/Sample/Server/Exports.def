@@ -1,1 +1,2 @@
-LIBRARY
+EXPORTS
+DllGetClassObject PRIVATE
