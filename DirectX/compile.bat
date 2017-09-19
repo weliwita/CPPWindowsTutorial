@@ -1,0 +1,1 @@
+cl main.cpp /Fe"hello"  /DUNICODE /D_UNICODE /link /subsystem:windows user32.lib
