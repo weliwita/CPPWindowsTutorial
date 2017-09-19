@@ -1,0 +1,1 @@
+cl main.fullscreen.cpp /Fe"fullscreen"  /DUNICODE /D_UNICODE /link /subsystem:windows user32.lib d3d9.lib
