@@ -1,0 +1,1 @@
+cl /I ..\corelib /D "_UNICODE" /D "UNICODE" /EHsc /ZI main.cpp

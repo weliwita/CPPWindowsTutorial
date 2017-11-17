@@ -1,0 +1,1 @@
+cl /EHsc /Zi main.cpp
